@@ -11,6 +11,7 @@ public class SamplePackageButton: UIButton {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
+        setupUI()
     }
     
     public required init?(coder: NSCoder) {
