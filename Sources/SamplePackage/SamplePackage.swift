@@ -20,7 +20,7 @@ public class SamplePackageButton: UIButton {
     
     public override func layoutSubviews() {
         super.layoutSubviews()
-        layer.cornerRadius = self.bounds.width/2
+        layer.cornerRadius = self.bounds.height/2
     }
     
     private func setupUI() {
